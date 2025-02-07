@@ -9,8 +9,7 @@ namespace SpaceShooter
         public enum AIBehaviour
         {
             Null,
-            Patrol,
-            MoveToPlace
+            Patrol
         }
 
         [SerializeField] private AIBehaviour m_AIBehaviour;
@@ -31,7 +30,6 @@ namespace SpaceShooter
 
         [SerializeField] private float m_EvadeRayLength;
 
-        [SerializeField] private Transform[] m_MoveToPlace;
         private int m_CurrentMoveTargetIndex;
 
         private SpaceShip m_SpaceShip;
@@ -63,11 +61,6 @@ namespace SpaceShooter
             {
                 UpdateBehaviourPatrol();
             }
-
-            if (m_AIBehaviour == AIBehaviour.MoveToPlace)
-            {
-                UpdateBehaviourMoveToPlace();
-            }
         }
 
         private void UpdateBehaviourPatrol()
@@ -79,44 +72,6 @@ namespace SpaceShooter
             ActionEvadeCollision();
         }
 
-        private void UpdateBehaviourMoveToPlace()
-        {
-            ActionMoveToPlace();
-            ActionControlShip();
-            ActionFindNewAtackTarget();
-            ActionFire();
-            ActionEvadeCollision();
-        }
-
-        private void ActionMoveToPlace()
-        {
-            if (m_AIBehaviour == AIBehaviour.MoveToPlace)
-            {
-                if (m_SelectedTarget != null)
-                {
-                    m_MovePosition = m_SelectedTarget.transform.position;
-                }
-                else
-                {
-                    if (m_PatrolPoint != null)
-                    {
-                        bool isInsidePatrolZone = (m_PatrolPoint.transform.position - transform.position).sqrMagnitude < m_PatrolPoint.Radius * m_PatrolPoint.Radius;
-
-                        if (isInsidePatrolZone == true)
-                        {
-                            float dist = Vector3.Distance(transform.position, m_MoveToPlace[m_CurrentMoveTargetIndex].position);
-
-                            if (dist < m_MoveToPlace.Length)
-                            {
-                                m_CurrentMoveTargetIndex = (m_CurrentMoveTargetIndex + 1) % m_MoveToPlace.Length;
-                            }
-
-                            m_MovePosition = m_MoveToPlace[m_CurrentMoveTargetIndex].position;
-                        }
-                    }
-                }
-            }
-        }
         private void ActionFindNewMovePosition()
         {
             if (m_AIBehaviour == AIBehaviour.Patrol)
@@ -131,16 +86,10 @@ namespace SpaceShooter
                     {
                         bool isInsidePatrolZone = (m_PatrolPoint.transform.position - transform.position).sqrMagnitude < m_PatrolPoint.Radius * m_PatrolPoint.Radius;
 
+
                         if (isInsidePatrolZone == true)
                         {
-                            if (m_RandomizeDirectionTimer.IsFinished == true)
-                            {
-                                Vector2 newPoint = UnityEngine.Random.onUnitSphere * m_PatrolPoint.Radius + m_PatrolPoint.transform.position;
-
-                                m_MovePosition = newPoint;
-
-                                m_RandomizeDirectionTimer.Start(m_RandomSelectMovePointTime);
-                            }
+                            GetNewPoint();
                         }
                         else
                         {
@@ -148,6 +97,19 @@ namespace SpaceShooter
                         }
                     }
                 }
+            }
+        }
+
+        protected virtual void GetNewPoint()
+        {
+            // Если катаемся внутри зоны патрулирования, то выбираем случайную точку внутри
+            if (m_RandomizeDirectionTimer.IsFinished == true)
+            {
+                Vector2 newPoint = UnityEngine.Random.onUnitSphere * m_PatrolPoint.Radius + m_PatrolPoint.transform.position;
+
+                m_MovePosition = newPoint;
+
+                m_RandomizeDirectionTimer.Start(m_RandomSelectMovePointTime);
             }
         }
 

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2389043950491206144}
   - component: {fileID: 1627770946688933812}
   - component: {fileID: 2311718599871040209}
+  - component: {fileID: 5156632967855279803}
   m_Layer: 0
   m_Name: VisualModel
   m_TagString: Untagged
@@ -106,6 +107,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5156632967855279803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004282230880366595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f6c149f61b94424c9fa80f9a12cf69c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4190508798733784521
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,7 +197,7 @@ GameObject:
   - component: {fileID: 2145557965906952340}
   - component: {fileID: 3894557070519635051}
   - component: {fileID: 6986242674661009025}
-  - component: {fileID: 4598157078016882493}
+  - component: {fileID: 4374080141325959179}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -258,12 +271,12 @@ MonoBehaviour:
   m_ScoreValue: 5
   m_PreviewImage: {fileID: 0}
   m_Mass: 1
-  m_Thrust: 10
+  m_Thrust: 1000
   m_StartThrust: 1000
   m_Mobility: 1000
-  m_MaxLinearVelocity: 10
-  m_MaxAngularVelocity: 1000
---- !u!114 &4598157078016882493
+  m_MaxLinearVelocity: 1
+  m_MaxAngularVelocity: 360
+--- !u!114 &4374080141325959179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -272,16 +285,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 9123354272286364667}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0fa16e20208f4e43b634685d534067c, type: 3}
+  m_Script: {fileID: 11500000, guid: a892251745e94d4478f3e68f9510f74f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AIBehaviour: 1
   m_PatrolPoint: {fileID: 0}
   m_ProjectileVelocity: 0
   m_NavigationLinear: 1
-  m_NavigationAngular: 1
+  m_NavigationAngular: 0.406
   m_RandomSelectMovePointTime: 0
   m_FindNewTargetTime: 0
   m_ShootDelay: 0
   m_EvadeRayLength: 0
-  m_MoveToPlace: []
