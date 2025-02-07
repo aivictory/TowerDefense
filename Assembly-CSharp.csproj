@@ -74,6 +74,7 @@
     <Compile Include="Assets\CodeBase\GamePlay\Turrets\Turret.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\LevelCondition.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\AI\AIController.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Tower.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\Panel\ShipSelectionButton.cs" />
     <Compile Include="Assets\CodeBase\Infrastructure\SingletonBase.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\BackgroundElement.cs" />

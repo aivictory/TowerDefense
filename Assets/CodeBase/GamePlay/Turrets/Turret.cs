@@ -26,6 +26,8 @@ namespace SpaceShooter
         {
             if (m_RefireTimer > 0)
                 m_RefireTimer -= Time.deltaTime;
+            else if (m_TurretProperties.Mode == TurretMode.Auto)
+                Fire();
         }
         #endregion
 
@@ -35,12 +37,25 @@ namespace SpaceShooter
 
             if (m_RefireTimer > 0) return;
 
-            if (m_Ship.DrawEnergy(m_TurretProperties.EnergyUsage) == false)
-                return;
 
+            if (m_Ship)
+            {
+                // кушаем энергию
+                if (m_Ship.DrawEnergy(m_TurretProperties.EnergyUsage) == false)
+                    return;
+
+                // кушаем энергию
+                if (m_Ship.DrawAmmo(m_TurretProperties.AmmoUsage) == false)
+                    return;
+            }
+         
+
+            // инстанцируем проджектайл, который уже сам полетит
             ProjectileBase projectile = Instantiate(m_TurretProperties.ProjectilePrefab).GetComponent<ProjectileBase>();
             projectile.transform.position = transform.position;
             projectile.transform.up = transform.up;
+
+            // метод выставления данных проджектайлу о том, кто стрелял для избавления от попаданий в самого себя
 
             projectile.SetParentShooter(m_Ship);
 

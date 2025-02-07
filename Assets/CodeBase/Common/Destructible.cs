@@ -44,11 +44,13 @@ namespace Common
         /// <param name="damage">Damage dealt to an object.</param>
         public void ApplyDamage(int damage)
         {
-            if (m_InDestructible) return;
+            if (m_InDestructible) 
+                return;
 
             m_CurrentHitPoints -= damage;
+            print(m_CurrentHitPoints);
 
-            if (m_CurrentHitPoints <= 0)
+            if (m_CurrentHitPoints < 0)
                 OnDeath();
         }
         #endregion
