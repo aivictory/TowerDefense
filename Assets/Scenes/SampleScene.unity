@@ -241,7 +241,7 @@ Transform:
   m_GameObject: {fileID: 160680923}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.15, y: -1.05, z: 0}
+  m_LocalPosition: {x: 8.22, y: -2.02, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -754,8 +754,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 890049960}
-  - component: {fileID: 890049959}
   - component: {fileID: 890049961}
+  - component: {fileID: 890049962}
   m_Layer: 0
   m_Name: EnemyCamp
   m_TagString: Untagged
@@ -763,25 +763,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &890049959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890049958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54c68c9de7a91da40a82f3f02f553a01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_path: {fileID: 1623285596}
-  m_EntityPrefabs:
-  - {fileID: 6986242674661009025, guid: 63a64fc1c3046c24c9278b907831b903, type: 3}
-  m_Area: {fileID: 144885259}
-  m_SpawnMode: 1
-  m_NumSpawns: 3
-  m_RespawnTime: 1
 --- !u!4 &890049960
 Transform:
   m_ObjectHideFlags: 0
@@ -810,16 +791,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 890049958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54c68c9de7a91da40a82f3f02f553a01, type: 3}
+  m_Script: {fileID: 11500000, guid: 131ec5e3dbccd204490414ebc1177162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_path: {fileID: 1273459161}
-  m_EntityPrefabs:
-  - {fileID: 6986242674661009025, guid: 63a64fc1c3046c24c9278b907831b903, type: 3}
   m_Area: {fileID: 144885259}
-  m_SpawnMode: 1
+  m_SpawnMode: 0
   m_NumSpawns: 3
-  m_RespawnTime: 2
+  m_RespawnTime: 1
+  m_EnemyPrefab: {fileID: 455033761244916227, guid: 63a64fc1c3046c24c9278b907831b903, type: 3}
+  m_path: {fileID: 1623285596}
+  m_EnemyAsset:
+  - {fileID: 11400000, guid: ba125669ca73ee743b2bd371b30b2077, type: 2}
+--- !u!114 &890049962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890049958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131ec5e3dbccd204490414ebc1177162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Area: {fileID: 144885259}
+  m_SpawnMode: 0
+  m_NumSpawns: 3
+  m_RespawnTime: 1
+  m_EnemyPrefab: {fileID: 455033761244916227, guid: 63a64fc1c3046c24c9278b907831b903, type: 3}
+  m_path: {fileID: 1273459161}
+  m_EnemyAsset:
+  - {fileID: 11400000, guid: e53a1448d213a794fb0319b104512db2, type: 2}
 --- !u!1 &940556556
 GameObject:
   m_ObjectHideFlags: 0

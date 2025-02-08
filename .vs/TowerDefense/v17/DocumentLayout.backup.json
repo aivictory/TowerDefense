@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "E:\\[Workspace]\\Unity\\TowerDefense\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\towerdefense\\assets\\codebase\\gameplay\\standup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\standup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\towerdefense\\assets\\codebase\\gameplay\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\spawners\\entityspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\towerdefense\\assets\\codebase\\gameplay\\spawners\\entityspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\spawners\\entityspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\ai\\tdpatrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\ai\\tdpatrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|e:\\[workspace]\\unity\\towerdefense\\assets\\codebase\\gameplay\\spawners\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\spawners\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\enemyasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\enemyasset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\turrets\\turretproperities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\turrets\\turretproperities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\standup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\standup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\path.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\ai\\tdpatrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|solutionrelative:assets\\codebase\\gameplay\\ai\\tdpatrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}|Assembly-CSharp.csproj|E:\\[Workspace]\\Unity\\TowerDefense\\assets\\codebase\\gameplay\\ai\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +54,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Spawners\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Spawners\\Spawner.cs",
+              "ToolTip": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Spawners\\Spawner.cs",
+              "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Spawners\\Spawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T05:12:01.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Enemy.cs",
+              "ToolTip": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Enemy.cs",
+              "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T03:53:59.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyAsset.cs",
+              "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\EnemyAsset.cs",
+              "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\EnemyAsset.cs",
+              "ToolTip": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\EnemyAsset.cs",
+              "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\EnemyAsset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T03:49:16.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TurretProperities.cs",
+              "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Turrets\\TurretProperities.cs",
+              "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Turrets\\TurretProperities.cs",
+              "ToolTip": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Turrets\\TurretProperities.cs",
+              "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Turrets\\TurretProperities.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T03:49:10.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "StandUp.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\StandUp.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\StandUp.cs",
@@ -50,8 +115,7 @@
               "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\StandUp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T15:56:26.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T15:56:26.349Z"
             },
             {
               "$type": "Document",
@@ -61,13 +125,13 @@
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Tower.cs",
               "ToolTip": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Tower.cs",
               "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Tower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T15:18:57.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Path.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Path.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Path.cs",
@@ -75,12 +139,11 @@
               "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Path.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T13:59:23.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T13:59:23.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "AIPointPatrol.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\AI\\AIPointPatrol.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\AI\\AIPointPatrol.cs",
@@ -92,19 +155,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EntitySpawner.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Spawners\\EntitySpawner.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\Spawners\\EntitySpawner.cs",
               "ToolTip": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\Spawners\\EntitySpawner.cs",
               "RelativeToolTip": "Assets\\CodeBase\\GamePlay\\Spawners\\EntitySpawner.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAApwD0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T12:46:28.835Z"
+              "WhenOpened": "2025-02-07T12:46:28.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "TDPatrolController.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\AI\\TDPatrolController.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\AI\\TDPatrolController.cs",
@@ -116,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "AIController.cs",
               "DocumentMoniker": "E:\\[Workspace]\\Unity\\TowerDefense\\Assets\\CodeBase\\GamePlay\\AI\\AIController.cs",
               "RelativeDocumentMoniker": "Assets\\CodeBase\\GamePlay\\AI\\AIController.cs",

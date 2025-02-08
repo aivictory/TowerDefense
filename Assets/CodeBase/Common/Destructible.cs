@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TowerDefence;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -92,5 +93,11 @@ namespace Common
 
         [SerializeField] private int m_ScoreValue;
         public int ScoreValue => m_ScoreValue;
+
+        protected void Use(EnemyAsset asset)
+        {
+            m_HitPoints = asset.hp;
+            m_ScoreValue = asset.score;
+        }
     }
 }

@@ -68,6 +68,7 @@
     <Compile Include="Assets\CodeBase\Common\ProjectileBase.cs" />
     <Compile Include="Assets\CodeBase\Common\VirtualJoystick.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Path.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Spawners\Spawner.cs" />
     <Compile Include="Assets\CodeBase\Common\Entity.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\CollisionDamageApplicator.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Services\LevelBuilder.cs" />
@@ -76,8 +77,10 @@
     <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\LevelCondition.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\AI\AIController.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Tower.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Enemy.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\UI\Panel\ShipSelectionButton.cs" />
     <Compile Include="Assets\CodeBase\Infrastructure\SingletonBase.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\Spawners\EnemySpawner.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\BackgroundElement.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\AI\TDPatrolController.cs" />
     <Compile Include="Assets\CodeBase\Common\ImpactEffect.cs" />
@@ -89,6 +92,7 @@
     <Compile Include="Assets\CodeBase\GamePlay\LevelLogic\LevelBoundaryLimiter.cs" />
     <Compile Include="Assets\CodeBase\Common\CircleArea.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\AI\AIPointPatrol.cs" />
+    <Compile Include="Assets\CodeBase\GamePlay\EnemyAsset.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\StandUp.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Services\PlayerSpawner.cs" />
     <Compile Include="Assets\CodeBase\GamePlay\Turrets\TurretProperities.cs" />

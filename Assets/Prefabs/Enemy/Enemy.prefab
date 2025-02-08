@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2145557965906952340}
@@ -44,7 +44,7 @@ Animator:
   m_GameObject: {fileID: 3004282230880366595}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b3f5a386e54af674a9e720ae69dfdcf2, type: 2}
+  m_Controller: {fileID: 9100000, guid: cac0dddfd78c97b479b0ee4e7c58d560, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 4190508798733784521}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.067, y: -0.026, z: 0}
+  m_LocalPosition: {x: 0.011, y: -0.107, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -183,9 +183,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07768776, y: -0.062296778}
+  m_Offset: {x: -0.011, y: 0.107}
   serializedVersion: 2
-  m_Radius: 0.20170847
+  m_Radius: 0.38
 --- !u!1 &9123354272286364667
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 3894557070519635051}
   - component: {fileID: 6986242674661009025}
   - component: {fileID: 4374080141325959179}
+  - component: {fileID: 455033761244916227}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -263,16 +264,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Nickname: 
   m_InDestructible: 0
-  m_HitPoints: 5
+  m_HitPoints: 10
   m_TeamId: 0
   m_EventOnDeath:
     m_PersistentCalls:
       m_Calls: []
-  m_ScoreValue: 5
+  m_ScoreValue: 10
   m_PreviewImage: {fileID: 0}
   m_Mass: 1
   m_Thrust: 1000
-  m_StartThrust: 1000
   m_Mobility: 1000
   m_MaxLinearVelocity: 1
   m_MaxAngularVelocity: 360
@@ -297,3 +297,15 @@ MonoBehaviour:
   m_FindNewTargetTime: 0
   m_ShootDelay: 0
   m_EvadeRayLength: 0
+--- !u!114 &455033761244916227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123354272286364667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdd35e32f3d23014d96b119b8c90014c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

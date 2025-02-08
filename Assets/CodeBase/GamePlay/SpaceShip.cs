@@ -1,5 +1,6 @@
 using UnityEngine;
 using Common;
+using TowerDefence;
 
 namespace SpaceShooter
 {
@@ -13,12 +14,11 @@ namespace SpaceShooter
         [Header("Space Ship")]
         [SerializeField] private float m_Mass;
 
+        
         /// <summary>
         /// Forward pushing force
         /// </summary>
         [SerializeField] private float m_Thrust;
-
-        [SerializeField] private float m_StartThrust;
 
         /// <summary>
         /// Rotating force.
@@ -180,17 +180,7 @@ namespace SpaceShooter
             m_PrimaryEnergy = Mathf.Clamp(m_PrimaryEnergy, 0, m_MaxEnergy);
         }
 
-        private void UpdateBonusThrust()
-        {
-            if (m_TimerBonusThrust > 0)
-            {
-                m_TimerBonusThrust -= Time.fixedDeltaTime;
-                if (m_TimerBonusThrust <= 0)
-                {
-                    m_Thrust = m_StartThrust;
-                }
-            }
-        }
+  
 
         private void UpdateInvulnerability()
         {
@@ -253,6 +243,13 @@ namespace SpaceShooter
             }
         }
         */
+
+        public void Use(EnemyAsset asset)
+        {
+            // Меняем скорость
+            m_MaxLinearVelocity = asset.moveSpeed;
+            base.Use(asset);
+        }
     }
 
 }
