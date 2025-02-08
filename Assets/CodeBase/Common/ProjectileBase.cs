@@ -21,7 +21,6 @@ namespace Common
             float stepLength = Time.deltaTime * m_Velocity;
             Vector2 step = transform.up * stepLength;
             RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, stepLength);
-            print(hit);
 
             if (hit)
             {

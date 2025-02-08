@@ -10,9 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37251d7df19d24c4b80c6db504b97826, type: 3}
-  m_Name: BlueEnemy
+  m_Name: KnightEnemy
   m_EditorClassIdentifier: 
   color: {r: 1, g: 1, b: 1, a: 1}
   spriteScale: {x: 2, y: 2}
   animations: {fileID: 9100000, guid: b3f5a386e54af674a9e720ae69dfdcf2, type: 2}
-  moveSpeed: 2
+  moveSpeed: 2.5
+  hp: 5
+  score: 5
+  radius: 0.19

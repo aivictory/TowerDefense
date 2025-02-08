@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37251d7df19d24c4b80c6db504b97826, type: 3}
-  m_Name: RedEnemy
+  m_Name: OrcEnemy
   m_EditorClassIdentifier: 
   color: {r: 1, g: 1, b: 1, a: 1}
   spriteScale: {x: 4, y: 4}
   animations: {fileID: 9100000, guid: cac0dddfd78c97b479b0ee4e7c58d560, type: 2}
   moveSpeed: 1
-  hp: 10
-  score: 10
+  hp: 20
+  score: 20
   radius: 0.38

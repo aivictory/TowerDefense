@@ -49,7 +49,6 @@ namespace Common
                 return;
 
             m_CurrentHitPoints -= damage;
-            print(m_CurrentHitPoints);
 
             if (m_CurrentHitPoints < 0)
                 OnDeath();
