@@ -52,7 +52,10 @@ namespace SpaceShooter
 
         private void Start()
         {
-            Respawn();
+            if(m_Ship)
+            {
+                m_Ship.EventOnDeath.AddListener(OnShipDeath);
+            }
         }
         private void OnShipDeath()
         {
@@ -61,7 +64,15 @@ namespace SpaceShooter
                 Respawn();
         }
 
-        private void Respawn()
+        public void TakeDamage(int damage)
+        {
+            m_NumLives -= damage;
+            if (m_NumLives <= 0 && m_Ship != null)
+            {
+                m_Ship.EventOnDeath.AddListener(OnShipDeath);
+            }
+        }
+    private void Respawn()
         {
             var newPlayerShip = Instantiate(ShipPrefab, m_SpawnPoint.position, m_SpawnPoint.rotation);
 
@@ -71,9 +82,8 @@ namespace SpaceShooter
             // m_ShipInputController.SetTargetShip(m_Ship);
 
             m_Ship.EventOnDeath.AddListener(OnShipDeath);
-        }
+        } 
 
-       
         public void AddKill()
         {
             m_NumKills += 1;

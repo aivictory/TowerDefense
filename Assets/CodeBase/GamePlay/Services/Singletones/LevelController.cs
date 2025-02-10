@@ -66,7 +66,7 @@ namespace SpaceShooter
             Time.timeScale = 0;
         }
 
-        private void Pass()
+        public void Pass()
         {
             LevelPassed?.Invoke();
             Time.timeScale = 0;

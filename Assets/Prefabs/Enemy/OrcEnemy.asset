@@ -19,3 +19,5 @@ MonoBehaviour:
   hp: 20
   score: 20
   radius: 0.38
+  damage: 2
+  gold: 2

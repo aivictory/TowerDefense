@@ -9,6 +9,8 @@ namespace TowerDefence
     public class Enemy : MonoBehaviour
 
     {
+        [SerializeField] private int m_damage = 1;
+        [SerializeField] private int m_gold = 1;
         public void Use (EnemyAsset asset)
         {
             var sr = transform.Find("VisualModel").GetComponent <SpriteRenderer>();
@@ -37,6 +39,20 @@ namespace TowerDefence
             Vector3 offset = modelWorldPos - colliderWorldPos;
             circleCollider.offset = new Vector2(offset.x, offset.y);
 
+            // Назначаем кол-во урона от врага
+            m_damage = asset.damage;
+            m_gold = asset.gold;
+        }
+        // Наносим повреждения игроку
+        public void DamagePlayer ()
+        {
+            Player.Instance.TakeDamage(m_damage);
+        }
+
+        public void GivePlayerGold()
+        {
+               (Player.Instance as TDPlayer).ChangeGold(m_gold);
+     
         }
     }
 

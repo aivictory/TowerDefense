@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c01b2d4f1e3de24abd1a5833dc5fb74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Radius: 2.3
+  m_Radius: 4.73
 --- !u!1 &106643883
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,6 +881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 940556557}
+  - component: {fileID: 940556558}
   m_Layer: 0
   m_Name: PlayerCamp
   m_TagString: Untagged
@@ -905,6 +906,21 @@ Transform:
   - {fileID: 1416516822}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &940556558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940556556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8e7340f1bf7d3b43952c218192f484a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NumLives: 10
+  m_PlayerShipPrefab: {fileID: 0}
+  m_gold: 0
 --- !u!1 &1018827123
 GameObject:
   m_ObjectHideFlags: 0
