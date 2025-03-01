@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2231e30d32d31164d82045cf11822c6b, type: 3}
   m_Name: RedEnemy
   m_EditorClassIdentifier: 
-  color: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 0, b: 0, a: 1}
   spriteScale: {x: 4, y: 4}
   animations: {fileID: 9100000, guid: cac0dddfd78c97b479b0ee4e7c58d560, type: 2}
   moveSpeed: 1
   hp: 10
   score: 10
   radius: 0.38
-  damage: 3
-  gold: 2
+  damage: 2
+  gold: 5

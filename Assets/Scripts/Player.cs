@@ -43,7 +43,8 @@ namespace SpaceShooter
             m_NumLives -= damage;
             if (m_NumLives <= 0)
             {
-                LevelSequenceController.Instance.FinishCurrentLevel(false);
+                //LevelSequenceController.Instance.FinishCurrentLevel(false);
+                LevelSequenceController.Instance.RestartLevel();
             }
         }
         private void Respawn()

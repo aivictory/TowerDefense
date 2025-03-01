@@ -12,17 +12,17 @@ namespace TowerDefense
 
         private TextMeshProUGUI m_text;
 
-        void Awake()
+        void Start()
         {
             m_text = GetComponent<TextMeshProUGUI>();
             switch (source)
             {
                 case UpdateSource.Gold:
-                    TDPlayer.OnGoldUpdate += UpdateText;
+                    TDPlayer.GoldUpdateSubscribe(UpdateText);
                     break;
 
                  case UpdateSource.Life:
-                    TDPlayer.OnLifeUpdate += UpdateText;
+                    TDPlayer.LifeUpdateSubscribe(UpdateText);
                     break;
             }
         }
